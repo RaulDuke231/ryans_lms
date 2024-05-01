@@ -23,6 +23,12 @@
             "email": "test@example.com",
             "id": 960729362488,
             "created": "2024-04-28T23:14:18.910Z"
+        },
+        {
+            "name": "testy McTesty2",
+            "email": "test@example.com",
+            "id": 444649047810,
+            "created": "2024-05-01T01:06:07.785Z"
         }
     ],
     "courses": [
@@ -31,11 +37,13 @@
             "name": "Higher Learning",
             "subject": "Math",
             "cost": 0,
-            "authors": [{
-                "name": "Dr.Spock",
-                "created": "2024-03-22T05:14:36.252Z"
-            }],
-            "modules":"hmm",
+            "authors": [
+                {
+                    "name": "Dr.Spock",
+                    "created": "2024-03-22T05:14:36.252Z"
+                }
+            ],
+            "modules": "hmm",
             "created": "2024-03-22T05:42:18.895Z"
         },
         {
@@ -43,11 +51,13 @@
             "name": "How to peel an apple",
             "subject": "Math",
             "cost": 0,
-            "authors": [{
-                "name": "Dr.Spock",
-                "created": "2024-03-22T05:14:36.252Z"
-            }],
-            "modules":"hmm",
+            "authors": [
+                {
+                    "name": "Dr.Spock",
+                    "created": "2024-03-22T05:14:36.252Z"
+                }
+            ],
+            "modules": "hmm",
             "created": "2024-03-22T05:20:55.079Z"
         },
         {
@@ -55,11 +65,13 @@
             "name": "Why is harriet so harry",
             "subject": "Math",
             "cost": 0,
-            "authors": [{
-                "name": "Dr.Spock",
-                "created": "2024-03-22T05:14:36.252Z"
-            }],
-            "modules":"hmm",
+            "authors": [
+                {
+                    "name": "Dr.Spock",
+                    "created": "2024-03-22T05:14:36.252Z"
+                }
+            ],
+            "modules": "hmm",
             "created": "2024-03-22T05:42:18.895Z"
         },
         {
@@ -67,157 +79,155 @@
             "id": 9607293123445,
             "subject": "Math",
             "cost": 0,
-            "authors": [{
-                "name": "Dr.Spock",
-                "created": "2024-03-22T05:14:36.252Z"
-            }],
-            "modules":"hmm",
+            "authors": [
+                {
+                    "name": "Dr.Spock",
+                    "created": "2024-03-22T05:14:36.252Z"
+                }
+            ],
+            "modules": "hmm",
             "created": "2024-04-28T23:14:18.910Z"
         }
     ],
-    "content": 
-    [
+    "content": [
         {
             "id": 36611517222,
             "course_id": 9607293123445,
-            "module":[
-                    {
-                        "module_name": " mod_1",
-                        "id": 123456888,
-                        "sections":[
-                            {
-                                "section_name": "section 1 ",
-                                "id": 123456777,
-                                "pages":[
-                                    {
-                                        "page_name": "page 1",
-                                        "id": 123456666,
-                                        "content": "this is page 1",
-                                        "page_type": "basic"
-                                    },
-                                    {
-                                        "page_name": "page 2",
-                                        "id": 123456666,
-                                        "content": "this is page 2",
-                                        "page_type": "basic"
-                                    },
-                                    {
-                                        "page_name": "page 3",
-                                        "id": 123456666,
-                                        "content": "this is page 3",
-                                        "page_type": "basic"
-                                    }
-                                ]
-                            },
-                            {
-                                "section_name": "section 2 - mod  1",
-                                "id": 123456777,
-                                "pages":[
-                                    {
-                                        "page_name": "page 1 - section 2 - mod 1",
-                                        "id": 123456666,
-                                        "content": "this is page 1",
-                                        "page_type": "basic"
-                                    },
-                                    {
-                                        "page_name": "page 2 - section 2 - mod 1",
-                                        "id": 123456666,
-                                        "content": "this is page 2",
-                                        "page_type": "basic"
-                                    },
-                                    {
-                                        "page_name": "page 3 - section 2 - mod 1",
-                                        "id": 123456666,
-                                        "content": "this is page 3",
-                                        "page_type": "basic"
-                                    }
-                                ]
-                            },
-                            {
-                                "section_name": "section 3 - mod  1",
-                                "id": 123456777,
-                                "pages":[
-                                    {
-                                        "page_name": "page 1 - section 3 - mod 1",
-                                        "id": 123456666,
-                                        "content": "this is page 1",
-                                        "page_type": "basic"
-                                    },
-                                    {
-                                        "page_name": "page 2 - section 3 - mod 1",
-                                        "id": 123456666,
-                                        "content": "this is page 2",
-                                        "page_type": "basic"
-                                    },
-                                    {
-                                        "page_name": "page 3 - section 3 - mod 1",
-                                        "id": 123456666,
-                                        "content": "this is page 3",
-                                        "page_type": "basic"
-                                    }
-                                ]
-                            }
-                        ]
-
-                    },
-                    {
-                        "module_name": " mod_2",
-                        "id": 123456888,
-                        "sections":[
-                            {
-                                "section_name": "section 1 - mod  2",
-                                "id": 123456777,
-                                "pages":[
-                                    {
-                                        "page_name": "page 1 - section 1 - mod 2",
-                                        "id": 123456666,
-                                        "content": "this is page 1",
-                                        "page_type": "basic"
-                                    },
-                                    {
-                                        "page_name": "page 2 - section 1 - mod 2",
-                                        "id": 123456666,
-                                        "content": "this is page 2",
-                                        "page_type": "basic"
-                                    },
-                                    {
-                                        "page_name": "page 3 - section 1 - mod 2",
-                                        "id": 123456666,
-                                        "content": "this is page 3",
-                                        "page_type": "basic"
-                                    }
-                                ]
-                            },
-                            {
-                                "section_name": "section 2 - mod  2",
-                                "id": 123456777,
-                                "pages":[
-                                    {
-                                        "page_name": "page 1 - section 2 - mod 2",
-                                        "id": 123456666,
-                                        "content": "this is page 1",
-                                        "page_type": "basic"
-                                    },
-                                    {
-                                        "page_name": "page 2 - section 2 - mod 2",
-                                        "id": 123456666,
-                                        "content": "this is page 2",
-                                        "page_type": "basic"
-                                    },
-                                    {
-                                        "page_name": "page 3 - section 2 - mod 2",
-                                        "id": 123456666,
-                                        "content": "this is page 3",
-                                        "page_type": "basic"
-                                    }
-                                ]
-                            }
-                        ]
-
-                    }
+            "module": [
+                {
+                    "module_name": " mod_1",
+                    "id": 123456888,
+                    "sections": [
+                        {
+                            "section_name": "section 1 ",
+                            "id": 123456777,
+                            "pages": [
+                                {
+                                    "page_name": "page 1",
+                                    "id": 123456666,
+                                    "content": "this is page 1",
+                                    "page_type": "basic"
+                                },
+                                {
+                                    "page_name": "page 2",
+                                    "id": 123456666,
+                                    "content": "this is page 2",
+                                    "page_type": "basic"
+                                },
+                                {
+                                    "page_name": "page 3",
+                                    "id": 123456666,
+                                    "content": "this is page 3",
+                                    "page_type": "basic"
+                                }
+                            ]
+                        },
+                        {
+                            "section_name": "section 2 - mod  1",
+                            "id": 123456777,
+                            "pages": [
+                                {
+                                    "page_name": "page 1 - section 2 - mod 1",
+                                    "id": 123456666,
+                                    "content": "this is page 1",
+                                    "page_type": "basic"
+                                },
+                                {
+                                    "page_name": "page 2 - section 2 - mod 1",
+                                    "id": 123456666,
+                                    "content": "this is page 2",
+                                    "page_type": "basic"
+                                },
+                                {
+                                    "page_name": "page 3 - section 2 - mod 1",
+                                    "id": 123456666,
+                                    "content": "this is page 3",
+                                    "page_type": "basic"
+                                }
+                            ]
+                        },
+                        {
+                            "section_name": "section 3 - mod  1",
+                            "id": 123456777,
+                            "pages": [
+                                {
+                                    "page_name": "page 1 - section 3 - mod 1",
+                                    "id": 123456666,
+                                    "content": "this is page 1",
+                                    "page_type": "basic"
+                                },
+                                {
+                                    "page_name": "page 2 - section 3 - mod 1",
+                                    "id": 123456666,
+                                    "content": "this is page 2",
+                                    "page_type": "basic"
+                                },
+                                {
+                                    "page_name": "page 3 - section 3 - mod 1",
+                                    "id": 123456666,
+                                    "content": "this is page 3",
+                                    "page_type": "basic"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "module_name": " mod_2",
+                    "id": 123456888,
+                    "sections": [
+                        {
+                            "section_name": "section 1 - mod  2",
+                            "id": 123456777,
+                            "pages": [
+                                {
+                                    "page_name": "page 1 - section 1 - mod 2",
+                                    "id": 123456666,
+                                    "content": "this is page 1",
+                                    "page_type": "basic"
+                                },
+                                {
+                                    "page_name": "page 2 - section 1 - mod 2",
+                                    "id": 123456666,
+                                    "content": "this is page 2",
+                                    "page_type": "basic"
+                                },
+                                {
+                                    "page_name": "page 3 - section 1 - mod 2",
+                                    "id": 123456666,
+                                    "content": "this is page 3",
+                                    "page_type": "basic"
+                                }
+                            ]
+                        },
+                        {
+                            "section_name": "section 2 - mod  2",
+                            "id": 123456777,
+                            "pages": [
+                                {
+                                    "page_name": "page 1 - section 2 - mod 2",
+                                    "id": 123456666,
+                                    "content": "this is page 1",
+                                    "page_type": "basic"
+                                },
+                                {
+                                    "page_name": "page 2 - section 2 - mod 2",
+                                    "id": 123456666,
+                                    "content": "this is page 2",
+                                    "page_type": "basic"
+                                },
+                                {
+                                    "page_name": "page 3 - section 2 - mod 2",
+                                    "id": 123456666,
+                                    "content": "this is page 3",
+                                    "page_type": "basic"
+                                }
+                            ]
+                        }
+                    ]
+                }
             ],
             "created": "2024-03-22T05:42:18.895Z"
         }
     ]
 }
-

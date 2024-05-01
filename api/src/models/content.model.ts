@@ -24,7 +24,7 @@ export interface IContent {
             content: string,
             page_type: string
         }]
-    }]
+    },]
   }],
   updated_on: Date;
 }
